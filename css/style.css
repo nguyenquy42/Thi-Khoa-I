@@ -24,10 +24,11 @@
 }
 .menuFight {
     float: right;
+    margin: 10px;
 }
 
 .menuFight i {
-    color: #ffffff;
+    color: black;
 }
 
 .mySlides {display: none}
@@ -146,6 +147,7 @@ img {vertical-align: middle;}
 
 .bodyLeft ul li a {
   text-decoration: none;
+  color: blue;
 }
 
 .bodyLeft ul li a:hover{
