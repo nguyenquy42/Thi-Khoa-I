@@ -133,6 +133,13 @@ img {vertical-align: middle;}
     float: left;
 }
 
+.bodyLeft input {
+  background-color: #2e91a7;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+
 .bodyRight {
     float: right;
 }
@@ -165,11 +172,19 @@ img {vertical-align: middle;}
 
 .footer {
     clear: both;
-    background-color: chartreuse;
+    background-color: #f8f8f8;
 }
 .footer img {
-    width: 200px;
+    width: 100px;
 }
 .footerRight {
     float: right;
+}
+
+.footer table tr td a {
+  text-decoration: none;
+}
+
+.footerRight table tr td {
+  width: 350px;
 }
